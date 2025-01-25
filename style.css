@@ -1,0 +1,85 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    display: flex;
+}
+
+.form-container form {
+    margin: auto;
+    padding: auto;
+}
+
+input{
+    height: 1.5rem;
+}
+
+.camp-1{
+    width: 6rem;
+    margin-right: 20px;
+}
+
+.camp-2{
+    width: 17rem;
+}
+
+.camp-3{
+    width: 25rem;
+    margin-top: 15px;
+}
+
+.b-send{
+    height: 1.8rem;
+    width: 25.5rem;
+    margin-top: 15px;
+    background: #0f4bbb;
+    color: aliceblue;
+    border: none;
+}
+
+.b-send:hover{
+    background-color: #0b3e9c;
+    cursor: pointer;
+}
+
+.show-itens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 2rem;
+}
+
+th{
+    width: 8rem;
+}
+
+.b-edit{
+    background-color: #87d81c;
+    color: aliceblue;
+    border: none;
+    margin: 2px;
+}
+
+.b-edit:hover{
+    background-color: #61a00f;
+    cursor: pointer;
+}
+
+.b-delete{
+    background-color: #e46b6b;
+    color: aliceblue;
+    border: none;
+    margin: 2px;
+}
+
+.b-delete:hover{
+    background-color: #b84444;
+    cursor: pointer;
+}
